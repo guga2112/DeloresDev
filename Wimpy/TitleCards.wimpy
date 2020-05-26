@@ -79,6 +79,25 @@ objects: [
         ]
         pos: (320,180)
     }
+    {
+        name: "title_it"
+        prop: 1
+        zsort: 180
+        animations: [
+            {
+                name: "hide"
+                frames: [
+                ]
+            }
+            {
+                name: "show"
+                frames: [
+                    "part10_it"
+                ]
+            }
+        ]
+        pos: (320,180)
+    }
 ]
 room_bounds: ((0,0),(640,360))
 room_size: (640,360)

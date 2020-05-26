@@ -23,7 +23,9 @@ DEFINE_ROOM("TitleCards", {
 			breaktime(4.0)
 			objectState(date, "hide")
 
-			objectState(title, "show")
+			local lang = SETTING(language)
+			if(lang=="en") objectState(title, "show") else
+			if(lang=="it") objectState(title_it, "show")
 			objectState(line, "show")
 			objectState(text, "show")
 			overlayColor(COLOR_NONE)
@@ -33,6 +35,7 @@ DEFINE_ROOM("TitleCards", {
 			overlayColorTo(COLOR_BLACK, 2.0)
 			breaktime(4.0)
 			objectState(title, "hide")
+			objectState(title_it, "hide")
 			objectState(line, "hide")
 			objectState(text, "hide")
 			overlayColor(COLOR_NONE)
@@ -54,6 +57,7 @@ DEFINE_ROOM("TitleCards", {
 
 	date = {}
 	title = {}
+	title_it = {}
 	line = {}
 	text = {}
 

@@ -32,6 +32,14 @@
 	"spriteSourceSize": {"x":134,"y":78,"w":372,"h":81},
 	"sourceSize": {"w":640,"h":360}
 },
+"part10_it":
+{
+	"frame": {"x":3,"y":485,"w":466,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":78,"w":466,"h":81},
+	"sourceSize": {"w":640,"h":360}
+},
 "part10_title":
 {
 	"frame": {"x":379,"y":380,"w":178,"h":45},
