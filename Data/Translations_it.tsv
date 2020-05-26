@@ -1,5 +1,5 @@
 id	text	en	loc
-10000	Engish	English	
+10000	Italiano	English	
 10001	Default	Default	
 11000	I think I'm done with the assignment.	I think I'm done with the assignment.	DefineActors.dinky
 11001	Want to take a look at my work so far?	Want to take a look at my work so far?	DefineActors.dinky
@@ -1181,23 +1181,23 @@ id	text	en	loc
 12183	Might be one at the very top.	Might be one at the very top.	Morena.yack
 12184	If you find it, you can take it.	If you find it, you can take it.	Morena.yack
 12185	The only dead languages we need books on is ancient capsipan.	The only dead languages we need books on is ancient capsipan.	Morena.yack
-12186	I'm excited about my new job!	I'm excited about my new job!	Natalie.yack
-12187	Natalie has hired me to be the Nickel News photographer.	Natalie has hired me to be the Nickel News photographer.	Natalie.yack
-12188	I can't wait to get started!	I can't wait to get started!	Natalie.yack
-12189	Another exciting assignment as the Nickel News photographer!	Another exciting assignment as the Nickel News photographer!	Natalie.yack
-12190	I wonder what Natalie has for me now?	I wonder what Natalie has for me now?	Natalie.yack
-12191	My, aren't we the eager beaver this morning.	My, aren't we the eager beaver this morning.	Natalie.yack
-12192	I'm excited to get started!	I'm excited to get started!	Natalie.yack
-12193	It will be a nice creative break from making games.	It will be a nice creative break from making games.	Natalie.yack
-12194	It's not really the morning, it's just after 5pm.	It's not really the morning, it's just after 5pm.	Natalie.yack
-12195	Interesting.	Interesting.	Natalie.yack
-12196	I'm working on several stories for upcoming editions of the Thimbleweed Nickel, and we need photographs.	I'm working on several stories for upcoming editions of the Thimbleweed Nickel, and we need photographs.	Natalie.yack
-12197	I've made a list for you, and the camera is in the file cabinet by the door.	I've made a list for you, and the camera is in the file cabinet by the door.	Natalie.yack
-12198	Let me know if you need anything. More film, office supplies, info on your 401k.	Let me know if you need anything. More film, office supplies, info on your 401k.	Natalie.yack
-12199	Good luck on your first day as a photojournalist.	Good luck on your first day as a photojournalist.	Natalie.yack
-12200	Photojournalist! That makes it sound important!	Photojournalist! That makes it sound important!	Natalie.yack
-12201	^You need to turn in %d more photos before returning to your game developer job at MMucasFlem.	^You need to turn in %d more photos before returning to your game developer job at MMucasFlem.	Natalie.yack
-12202	I better find that camera, take a look at the list, and get cracking.	I better find that camera, take a look at the list, and get cracking.	Natalie.yack
+12186	Sono emozionata per il mio nuovo lavoro!	I'm excited about my new job!	Natalie.yack
+12187	Natalie mi ha assunto come fotografa per il Nickel News.	Natalie has hired me to be the Nickel News photographer.	Natalie.yack
+12188	Non vedo l'ora di cominciare!	I can't wait to get started!	Natalie.yack
+12189	Un altro compito importante come fotografa del Nickel News!	Another exciting assignment as the Nickel News photographer!	Natalie.yack
+12190	Chissà cosa mi farà fare Natalie?	I wonder what Natalie has for me now?	Natalie.yack
+12191	Ma guarda, se non sei bella zelante stamattina.	My, aren't we the eager beaver this morning.	Natalie.yack
+12192	Sono impaziente di cominciare!	I'm excited to get started!	Natalie.yack
+12193	Sarà un bel diversivo creativo rispetto a programmare giochi.	It will be a nice creative break from making games.	Natalie.yack
+12194	Non è proprio mattina, sono appena passate le 17.	It's not really the morning, it's just after 5pm.	Natalie.yack
+12195	Interessante.	Interesting.	Natalie.yack
+12196	Sto lavorando a varie storie per le prossime edizioni del Thimbleweed Nickel, e mi servono foto.	I'm working on several stories for upcoming editions of the Thimbleweed Nickel, and we need photographs.	Natalie.yack
+12197	Ti ho fatto una lista, e la camera è nell'archivio vicino alla porta.	I've made a list for you, and the camera is in the file cabinet by the door.	Natalie.yack
+12198	Fammi sapere se ti serve qualcosa. Rullino, cancelleria, informazioni sulla pensione.	Let me know if you need anything. More film, office supplies, info on your 401k.	Natalie.yack
+12199	Buona fortuna per il tuo primo giorno da fotoreporter.	Good luck on your first day as a photojournalist.	Natalie.yack
+12200	Fotoreporter! Suona così importante!	Photojournalist! That makes it sound important!	Natalie.yack
+12201	^Devi ancora consegnare %d foto prima di tornare al tuo lavoro da sviluppatore alla MMucasFlem.	^You need to turn in %d more photos before returning to your game developer job at MMucasFlem.	Natalie.yack
+12202	Meglio trovare la fotocamera, dare uno sguardo alla lista, e darsi da fare.	I better find that camera, take a look at the list, and get cracking.	Natalie.yack
 12203	Still working on those photos.	Still working on those photos.	Natalie.yack
 12204	Where did you say the camera was again?	Where did you say the camera was again?	Natalie.yack
 12205	I think I'm done with the assignment.	I think I'm done with the assignment.	Natalie.yack
@@ -1316,45 +1316,45 @@ id	text	en	loc
 12318	Business is booming.	Business is booming.	Willie.yack
 12319	Sorry I can't talk, I've got to get home.	Sorry I can't talk, I've got to get home.	Willie.yack
 12320	It's my night to cook dinner.	It's my night to cook dinner.	Willie.yack
-12321	Options-a-reno	Options-a-reno	Options.dinky
+12321	Opzioni-a-rino	Options-a-reno	Options.dinky
 12322	Hover beep	Hover beep	Options.dinky
 12323	Hover pop	Hover pop	Options.dinky
-12324	Fullscreen	Fullscreen	Options.dinky
-12325	Small font	Small font	Options.dinky
-12326	Music %d%%	Music %d%%	Options.dinky
-12327	Sound %d%%	Sound %d%%	Options.dinky
-12328	Text speed: %s	Text speed: %s	Options.dinky
-12329	Delete all progress and quit	Delete all progress and quit	Options.dinky
-12330	You've handed in %d out of %d photos	You've handed in %d out of %d photos	Options.dinky
+12324	Schermo pieno	Fullscreen	Options.dinky
+12325	Font ridotto	Small font	Options.dinky
+12326	Musica %d%%	Music %d%%	Options.dinky
+12327	Suoni %d%%	Sound %d%%	Options.dinky
+12328	Velocità testo: %s	Text speed: %s	Options.dinky
+12329	Cancella i salvataggi ed esci	Delete all progress and quit	Options.dinky
+12330	Hai consegnato %d foto su %d	You've handed in %d out of %d photos	Options.dinky
 12331	Ok	Ok	Options.dinky
-12332	Help	Help	Options.dinky
-12333	Quit	Quit	Options.dinky
-12334	Are you sure you want to delete ALL progress and quit?	Are you sure you want to delete ALL progress and quit?	Options.dinky
-12335	DELETE	DELETE	Options.dinky
-12336	Cancel	Cancel	Options.dinky
-12337	Help!	Help!	Options.dinky
-12338	● Left-click to do what the cursor sentence says.	● Left-click to do what the cursor sentence says.	Options.dinky
-12339	● Right-click to show more verbs.	● Right-click to show more verbs.	Options.dinky
-12340	● Drag inventory onto other inventory or room objects.	● Drag inventory onto other inventory or room objects.	Options.dinky
-12341	● When dragging, if no sentence appears, they can't	● When dragging, if no sentence appears, they can't	Options.dinky
-12342	  be used together.	  be used together.	Options.dinky
-12343	● Drag Camera to take pictures.	● Drag Camera to take pictures.	Options.dinky
-12344	● Use #{FFFF00}i#{} to show/hide inventory.	● Use #{FFFF00}i#{} to show/hide inventory.	Options.dinky
-12345	● Use #{FFFF00}o#{} to show/hide options.	● Use #{FFFF00}o#{} to show/hide options.	Options.dinky
-12346	● Use #{FFFF00}.#{} to skip dialog.	● Use #{FFFF00}.#{} to skip dialog.	Options.dinky
-12347	● Use #{FFFF00}ctrl-Q/cmd-Q#{} to quit.	● Use #{FFFF00}ctrl-Q/cmd-Q#{} to quit.	Options.dinky
+12332	Aiuto	Help	Options.dinky
+12333	Esci	Quit	Options.dinky
+12334	Sei sicuro di voler cancellare TUTTO il progresso e uscire?	Are you sure you want to delete ALL progress and quit?	Options.dinky
+12335	CANCELLA	DELETE	Options.dinky
+12336	Annulla	Cancel	Options.dinky
+12337	Aiuto!	Help!	Options.dinky
+12338	● Clic sinistro per compiere l'azione indicata dal cursore.	● Left-click to do what the cursor sentence says.	Options.dinky
+12339	● Clic destro per mostrare più verbi.	● Right-click to show more verbs.	Options.dinky
+12340	● Trascina l'inventario su altri oggetti nella stanza o nell'inventario.	● Drag inventory onto other inventory or room objects.	Options.dinky
+12341	● Quando trascini, se non appare una scritta vuol dire	● When dragging, if no sentence appears, they can't	Options.dinky
+12342	  che gli oggetti non possono essere usati insieme.	  be used together.	Options.dinky
+12343	● Trascina la fotocamera per scattare foto.	● Drag Camera to take pictures.	Options.dinky
+12344	● Usa #{FFFF00}i#{} epr mostrare/nascondere l'inventario.	● Use #{FFFF00}i#{} to show/hide inventory.	Options.dinky
+12345	● Usa #{FFFF00}o#{} per mostrare/nascondere le opzioni.	● Use #{FFFF00}o#{} to show/hide options.	Options.dinky
+12346	● Usa #{FFFF00}.#{} per saltare i dialoghi.	● Use #{FFFF00}.#{} to skip dialog.	Options.dinky
+12347	● Usa #{FFFF00}ctrl-Q/cmd-Q#{} per uscire.	● Use #{FFFF00}ctrl-Q/cmd-Q#{} to quit.	Options.dinky
 12348	Ok	Ok	Options.dinky
-12349	Quit now and lose progress on these five photographs?	Quit now and lose progress on these five photographs?	Options.dinky
+12349	Vuoi uscire e perdere i progressi per queste cinque fotografie?	Quit now and lose progress on these five photographs?	Options.dinky
 12350	NO!	NO!	Options.dinky
-12351	Quit	Quit	Options.dinky
-12352	the	the	DefineActors.dinky
-12353	the	the	DefineActors.dinky
-12354	a	a	CoronersOffice.dinky
-12355	Language: %s	Language: %s	Options.dinky
-12356	slowest	slowest	Options.dinky
-12357	slower	slower	Options.dinky
-12358	slow	slow	Options.dinky
-12359	normal	normal	Options.dinky
-12360	fast	fast	Options.dinky
-12361	faster	faster	Options.dinky
-12362	fastest	fastest	Options.dinky
+12351	Esci	Quit	Options.dinky
+12352	lo	the	DefineActors.dinky
+12353	il	the	DefineActors.dinky
+12354	uno	a	CoronersOffice.dinky
+12355	Lingua: %s	Language: %s	Options.dinky
+12356	lentissimo	slowest	Options.dinky
+12357	molto lento	slower	Options.dinky
+12358	lento	slow	Options.dinky
+12359	normale	normal	Options.dinky
+12360	veloce	fast	Options.dinky
+12361	molto veloce	faster	Options.dinky
+12362	velocissimo	fastest	Options.dinky

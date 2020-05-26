@@ -311,9 +311,8 @@ function openOptions(save_state=YES) {
 		soundMixVolume("effects", vol)
 		return format(TR(TEXT(12327,"Sound %d%%")), as_int(vol*100.0))
 	})
-
-	line += 2
-	makeSlider(point(0, linePos(line)), "", 185, 1.0, 0.0, @(inc_dec) {
+	line += 1
+	makeSlider(point(0, linePos(line)), "", 200, 1.0, 0.0, @(inc_dec) {
 		local s = gameprop("sayLineSpeed")
 		local v = 7
 		if (s <= 0.25 ) v = 1 else
@@ -331,16 +330,40 @@ function openOptions(save_state=YES) {
 
 		local t = null
 		local p = 1.0
-		if (v == 7) { t = "slowest"; p = 2.0 }
-		if (v == 6) { t = "slower"; p = 1.5 }
-		if (v == 5) { t = "slow"; p = 1.25 }
-		if (v == 4) { t = "normal"; p = 1.0 }
-		if (v == 3) { t = "fast"; p = 0.75 }
-		if (v == 2) { t = "faster"; p = 0.5 }
-		if (v == 1) { t = "fastest"; p = 0.25 }
+		if (v == 7) { t = TR(TEXT(12356,"slowest")); p = 2.0 }
+		if (v == 6) { t = TR(TEXT(12357,"slower")); p = 1.5 }
+		if (v == 5) { t = TR(TEXT(12358,"slow")); p = 1.25 }
+		if (v == 4) { t = TR(TEXT(12359,"normal")); p = 1.0 }
+		if (v == 3) { t = TR(TEXT(12360,"fast")); p = 0.75 }
+		if (v == 2) { t = TR(TEXT(12361,"faster")); p = 0.5 }
+		if (v == 1) { t = TR(TEXT(12362,"fastest")); p = 0.25 }
 
 		gameprop("sayLineSpeed", p)
 		return format(TR(TEXT(12328,"Text speed: %s")), t)
+	})
+	line += 1
+	makeSlider(point(0, linePos(line)), "", 185, 1.0, 0.0, @(inc_dec){
+		local s = SETTING(language)
+		local v = 0
+		if (s == "en" ) v = 0 else
+		if (s == "it" ) v = 1 
+
+		if (inc_dec < 0) v -= 1
+		if (inc_dec > 0) v += 1
+
+		if (v < 0) v = 1
+		if (v > 1) v = 0
+
+		local p = "en"
+		if (v == 0) { p = "en" }
+		if (v == 1) { p = "it" }
+
+		SETTING(language) <- p
+		useTranslation(p);
+		onRefreshPrefs()
+		
+		local langname = TR(TEXT(10000,"English"))
+		return format(TR(TEXT(12355,"Language: %s")),langname)
 	})
 
 	local ok_button = null

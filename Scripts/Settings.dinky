@@ -64,7 +64,7 @@ SETTING(gear_margin) = getSetting("gearMargin", null)
 if (!is_point(SETTING(gear_margin))) SETTING(gear_margin) = point(60,60)
 
 // Player options
-
+SETTING(language) <- getSetting("language","en")
 SETTING(hover_beep) <- as_int(getSetting("hoverBeep", YES))
 SETTING(hover_pop) <- as_int(getSetting("hoverPop", YES))
 SETTING(fullscreen) <- as_int(getSetting("windowFullscreen", YES))
@@ -82,7 +82,7 @@ function onRefreshPrefs() {
 	setuserpref("hoverBeep", SETTING(hover_beep))
 	setuserpref("hoverPop", SETTING(hover_pop))
 	setuserpref("windowFullscreen", SETTING(fullscreen))
-
+	setuserpref("language", SETTING(language))
 	setuserpref("smallFont", SETTING(small_font))
 
 	setuserpref("debugRetakePhotos", DEBUG(retake_photos)?DEBUG(retake_photos):null)
