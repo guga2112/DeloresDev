@@ -266,9 +266,15 @@ objects: [
         zsort: 108
         animations: [
             {
-                name: "on"
+                name: "on_en"
                 frames: [
                     "front_signs_neon_text_en"
+                ]
+            }
+			{
+                name: "on_it"
+                frames: [
+                    "front_signs_neon_text_it"
                 ]
             }
             {
@@ -285,9 +291,15 @@ objects: [
         zsort: 109
         animations: [
             {
-                name: "default"
+                name: "default_en"
                 frames: [
                     "front_signs_text_en"
+                ]
+            }
+			{
+                name: "default_it"
+                frames: [
+                    "front_signs_text_it"
                 ]
             }
         ]
@@ -576,15 +588,27 @@ objects: [
         zsort: 106
         animations: [
             {
-                name: "gone"
+                name: "gone_en"
                 frames: [
                     "maps_banner_text_en"
                 ]
             }
             {
-                name: "state1"
+                name: "state1_en"
                 frames: [
                     "maps_banner_lit_text_en"
+                ]
+            }
+			{
+                name: "gone_it"
+                frames: [
+                    "maps_banner_text_it"
+                ]
+            }
+            {
+                name: "state1_en"
+                frames: [
+                    "maps_banner_lit_text_it"
                 ]
             }
         ]

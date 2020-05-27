@@ -36,10 +36,11 @@ DEFINE_ROOM("QuickiePalOutside", {
 
 	function flashOpenSign() {
 		objectState(openSign, "off")
+		local onState = "on_"+SETTING(language)
 		startthread(@{
 			do {
 				breaktime(0.3)
-				objectState(openSign, "on")
+				objectState(openSign, onState)
 				roomLightEnable(3, YES)
 				playSoundAt(SOUNDID(neon_light2), openSignSound)
 				breaktime(1.5)
@@ -56,6 +57,7 @@ DEFINE_ROOM("QuickiePalOutside", {
 	enter = function(from_door=null) {
 		startthread(flashQuickiePal)
 		flashOpenSign()
+		objectState(quickiePalOpenUnlitText,"default_"+SETTING(language))
 
 		local star = 0
 		local starOffset = 159
@@ -163,6 +165,7 @@ DEFINE_ROOM("QuickiePalOutside", {
 	starB6 = {}
 
 	openSign = {}
+	quickiePalOpenUnlitText = {}
 
 // NEW_OBJECT_HERE
 })
