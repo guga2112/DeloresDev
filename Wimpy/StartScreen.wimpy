@@ -19,6 +19,12 @@ objects: [
                     "refcard"
                 ]
             }
+			{
+				name: "show_it"
+				frames: [
+					"refcard_it"
+				]
+			}
         ]
         pos: (640,360)
     }
@@ -38,6 +44,12 @@ objects: [
                     "click_to_continue"
                 ]
             }
+			{
+				name: "show_it"
+				frames: [
+					"click_to_continue_it"
+				]
+			}
         ]
         pos: (640,360)
     }

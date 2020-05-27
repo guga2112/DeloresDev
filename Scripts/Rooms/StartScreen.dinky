@@ -60,14 +60,17 @@ DEFINE_ROOM("StartScreen", {
 		breaktime(1.0)
 		ROOT(music_tid) = playSound(SOUNDID(startscreen_music))
 		overlayColor(COLOR_BLACK)
-		objectState(refcard, "show")
+		if(SETTING(language)=="en") objectState(refcard, "show") else
+		if(SETTING(language)=="it") objectState(refcard, "show_it")
+		
 		overlayColorTo(COLOR_NONE, 2.0)
 		if (!SETTING(seen_opening)) {
 			breaktime(5.0)
 		}
 		continue_ok = YES
 		do {
-			objectState(clickToContinue, "show")
+			if(SETTING(language)=="en") objectState(clickToContinue, "show") else
+			if(SETTING(language)=="it") objectState(clickToContinue, "show_it")
 			breaktime(1.0)
 			objectState(clickToContinue, "default")
 			breaktime(1.0)

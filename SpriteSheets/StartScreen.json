@@ -23,6 +23,22 @@
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
 	"sourceSize": {"w":1280,"h":720}
+},
+"click_to_continue_it":
+{
+	"frame": {"x":3,"y":1470,"w":206,"h":14},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":161,"y":629,"w":206,"h":14},
+	"sourceSize": {"w":1280,"h":720}
+},
+"refcard_it":
+{
+	"frame": {"x":3,"y":746,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720}
 }},
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
