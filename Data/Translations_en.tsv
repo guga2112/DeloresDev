@@ -1,5 +1,5 @@
 id	text	en	loc
-10000	Engish	English	
+10000	English	English	
 10001	Default	Default	
 11000	I think I'm done with the assignment.	I think I'm done with the assignment.	DefineActors.dinky
 11001	Want to take a look at my work so far?	Want to take a look at my work so far?	DefineActors.dinky
@@ -692,7 +692,7 @@ id	text	en	loc
 11688	It's the old Edmund Hotel.	It's the old Edmund Hotel.	Vista.dinky
 11689	That was Uncle Chuck's pride and joy until the bank repossessed it when he was committed to the sanitarium.	That was Uncle Chuck's pride and joy until the bank repossessed it when he was committed to the sanitarium.	Vista.dinky
 11690	That's where they'll make PillowBears™, but I think an image of a PillowBear™ is a better photo.	That's where they'll make PillowBears™, but I think an image of a PillowBear™ is a better photo.	Vista.dinky
-11691	It's nice to see the factory ramping up again to make PillowBears™.", ONCE(SAY(0,"Looks like Dad is working late again.	It's nice to see the factory ramping up again to make PillowBears™.", ONCE(SAY(0,"Looks like Dad is working late again.	Vista.dinky
+11691	It's nice to see the factory ramping up again to make PillowBears™.	It's nice to see the factory ramping up again to make PillowBears™.	Vista.dinky
 11692	The Mansion mansion is in great shape. I need a photo for home demolition.	The Mansion mansion is in great shape. I need a photo for home demolition.	Vista.dinky
 11693	It's like Thimbleweed's own private Chernobyl.	It's like Thimbleweed's own private Chernobyl.	Vista.dinky
 11694	My old home before it was repossessed by the bank.	My old home before it was repossessed by the bank.	Vista.dinky
@@ -1350,3 +1350,4 @@ id	text	en	loc
 12352	the	the	DefineActors.dinky
 12353	the	the	DefineActors.dinky
 12354	a	a	CoronersOffice.dinky
+12355	Looks like Dad is working late again.	Looks like Dad is working late again.	Vista.Dinky
